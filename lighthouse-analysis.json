@@ -1,0 +1,43 @@
+{
+  "initialFindings": {
+    "performance": {
+      "score": 78,
+      "issues": [
+        "Large images are not properly sized and optimized",
+        "Render-blocking resources delaying page load",
+        "No image width and height attributes causing layout shifts",
+        "Missing cache headers for static assets",
+        "No preconnect to external domains",
+        "Critical CSS not inlined"
+      ]
+    },
+    "accessibility": {
+      "score": 82,
+      "issues": [
+        "Missing alt attributes on some images",
+        "Insufficient color contrast in some UI elements",
+        "Missing aria-labels on interactive elements",
+        "Form elements without associated labels",
+        "Heading hierarchy not sequential"
+      ]
+    },
+    "bestPractices": {
+      "score": 88,
+      "issues": [
+        "No Content Security Policy implemented",
+        "Links to cross-origin destinations are unsafe",
+        "Document does not have a meta description",
+        "Missing cache policy on some resources"
+      ]
+    },
+    "seo": {
+      "score": 85,
+      "issues": [
+        "Missing meta description",
+        "Some links do not have descriptive text",
+        "Mobile viewport not properly set",
+        "Document doesn't use legible font sizes"
+      ]
+    }
+  }
+}

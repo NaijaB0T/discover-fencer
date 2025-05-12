@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+		<meta name="description" content="Discover Fencer - Find the best fence contractors in your area with our easy-to-use fence contractor directory." />
+		<meta name="theme-color" content="#3b82f6" />
+		
+		<!-- Performance Optimizations -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<!-- Cache Control -->
+		<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+		
+		<!-- Open Graph / Social Media Meta Tags -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Discover Fencer - Fence Contractor Directory" />
+		<meta property="og:description" content="Find the best fence contractors in your area with our easy-to-use fence contractor directory." />
+		<meta property="og:image" content="%sveltekit.assets%/images/og-image.jpg" />
+		<meta property="og:url" content="https://discoverfencer.com" />
+		
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Discover Fencer - Fence Contractor Directory" />
+		<meta name="twitter:description" content="Find the best fence contractors in your area with our easy-to-use fence contractor directory." />
+		<meta name="twitter:image" content="%sveltekit.assets%/images/og-image.jpg" />
+		
+		<!-- Web App Manifest -->
+		<link rel="manifest" href="%sveltekit.assets%/manifest.json" />
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
+		
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="min-h-screen bg-background text-foreground antialiased">
+		<div style="display: contents">
+			<!-- Skip to content link for accessibility -->
+			<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-white focus:text-primary focus:z-50 focus:top-0 focus:left-0">
+				Skip to main content
+			</a>
+			%sveltekit.body%
+		</div>
+	</body>
+</html>

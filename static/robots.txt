@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Primary Sitemap
+Sitemap: https://discoverfencer.com/sitemap.xml
+
+# Fallback Sitemap (if needed)
+Sitemap: https://discoverfencer.com/sitemap-fallback.xml
