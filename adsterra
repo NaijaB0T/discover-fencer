@@ -1,0 +1,19 @@
+Banner 728x90:
+<script>
+  atOptions = {
+    'key' : '96461b7bb9b6ba6c093b468674eb4e75',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://cadencebenefit.com/96461b7bb9b6ba6c093b468674eb4e75/invoke.js"></script>
+
+
+Social Bar:
+<script src="https://cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js"></script>
+
+
+Popunder Ad:
+<script src="https://cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js"></script>
