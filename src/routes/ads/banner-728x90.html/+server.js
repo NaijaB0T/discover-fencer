@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+export const prerender = true;
+
+/** @type {import('./$types').RequestHandler} */
+export function GET() {
+    const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +14,7 @@
     </style>
 </head>
 <body>
-    <script is:inline type="text/javascript">
+    <script type="text/javascript">
         atOptions = {
             'key' : '96461b7bb9b6ba6c093b468674eb4e75',
             'format' : 'iframe',
@@ -19,6 +23,13 @@
             'params' : {}
         };
     </script>
-    <script is:inline type="text/javascript" src="//cadencebenefit.com/96461b7bb9b6ba6c093b468674eb4e75/invoke.js"></script>
+    <script type="text/javascript" src="//cadencebenefit.com/96461b7bb9b6ba6c093b468674eb4e75/invoke.js"></script>
 </body>
-</html>
+</html>`;
+
+    return new Response(html, {
+        headers: {
+            'Content-Type': 'text/html'
+        }
+    });
+}
