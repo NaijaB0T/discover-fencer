@@ -14,10 +14,6 @@
 </script>
 
 <svelte:head>
-  <!-- Social Bar -->
-  <script data-cfasync="false" type='text/javascript' src='https://cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js'></script>
-  <!-- Popunder Ad -->
-  <script data-cfasync="false" type='text/javascript' src='https://cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js'></script>
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
