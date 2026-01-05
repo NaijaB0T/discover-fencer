@@ -1,7 +1,8 @@
 <script>
   export let width = 728;
   export let height = 90;
-  export let src = '/ads/banner-728x90.html';
+  // Using a root-relative path to the new filename
+  export let src = '/ad-728x90.html?v=2';
 </script>
 
 <div class="flex justify-center items-center my-4 w-full overflow-hidden">
