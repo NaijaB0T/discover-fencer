@@ -1,8 +1,8 @@
 <script>
+  import { base } from '$app/paths';
   export let width = 728;
   export let height = 90;
-  // Using a root-relative path to the new filename
-  export let src = '/ad-728x90.html?v=2';
+  export let src = `${base}/ad-728x90.html`;
 </script>
 
 <div class="flex justify-center items-center my-4 w-full overflow-hidden">
