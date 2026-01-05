@@ -299,6 +299,7 @@
                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
                     on:click={() => goToPage(currentPage - 1)}
                     disabled={currentPage === 1}
+                    aria-label="Previous page"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -322,6 +323,7 @@
                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
                     on:click={() => goToPage(currentPage + 1)}
                     disabled={currentPage === totalPages}
+                    aria-label="Next page"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

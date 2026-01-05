@@ -1,0 +1,306 @@
+09:48:01.462	Cloning repository...
+09:48:03.142	From https://github.com/NaijaB0T/discover-fencer
+09:48:03.143	 * branch            ad3983ac4144b68327fca1f3042e16ff0ffcd5dc -> FETCH_HEAD
+09:48:03.143	
+09:48:03.530	HEAD is now at ad3983a fix(ui): add cache busting to AdBanner and update background color
+09:48:03.531	
+09:48:03.600	
+09:48:03.601	Using v2 root directory strategy
+09:48:03.622	Success: Finished cloning repository files
+09:48:05.351	Checking for configuration in a Wrangler configuration file (BETA)
+09:48:05.352	
+09:48:06.436	No wrangler.toml file found. Continuing.
+09:48:06.499	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+09:48:06.500	Installing project dependencies: npm clean-install --progress=false
+09:48:11.297	
+09:48:11.298	> discover-fencer@0.0.1 prepare
+09:48:11.298	> svelte-kit sync || echo ''
+09:48:11.298	
+09:48:12.222	
+09:48:12.222	added 275 packages, and audited 276 packages in 5s
+09:48:12.223	
+09:48:12.223	44 packages are looking for funding
+09:48:12.223	  run `npm fund` for details
+09:48:12.241	
+09:48:12.242	7 vulnerabilities (4 low, 1 moderate, 2 high)
+09:48:12.242	
+09:48:12.242	To address issues that do not require attention, run:
+09:48:12.242	  npm audit fix
+09:48:12.242	
+09:48:12.243	To address all issues (including breaking changes), run:
+09:48:12.243	  npm audit fix --force
+09:48:12.243	
+09:48:12.243	Run `npm audit` for details.
+09:48:12.266	Executing user command: npm run build
+09:48:12.626	
+09:48:12.627	> discover-fencer@0.0.1 build
+09:48:12.627	> vite build
+09:48:12.627	
+09:48:13.648	The following Vite config options will be overridden by SvelteKit:
+09:48:13.649	  - build.rollupOptions.output.entryFileNames
+09:48:13.649	  - build.rollupOptions.output.chunkFileNames
+09:48:13.649	  - build.rollupOptions.output.assetFileNames
+09:48:13.672	vite v6.3.5 building SSR bundle for production...
+09:48:13.737	transforming...
+09:48:13.812	8:48:13 AM [vite-plugin-svelte] src/routes/+layout.svelte:18:10 Attributes should not contain ':' characters to prevent ambiguity with Svelte directives
+09:48:13.813	https://svelte.dev/e/attribute_illegal_colon
+09:48:13.813	16: <svelte:head>
+09:48:13.813	17:   <!-- Social Bar -->
+09:48:13.813	18:   <script is:inline type='text/javascript' src='//cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js'></script>
+09:48:13.813	                       ^
+09:48:13.813	19:   <!-- Popunder Ad -->
+09:48:13.814	20:   <script is:inline type='text/javascript' src='//cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js'></script>
+09:48:13.814	8:48:13 AM [vite-plugin-svelte] src/routes/+layout.svelte:20:10 Attributes should not contain ':' characters to prevent ambiguity with Svelte directives
+09:48:13.814	https://svelte.dev/e/attribute_illegal_colon
+09:48:13.814	18:   <script is:inline type='text/javascript' src='//cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js'></script>
+09:48:13.814	19:   <!-- Popunder Ad -->
+09:48:13.814	20:   <script is:inline type='text/javascript' src='//cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js'></script>
+09:48:13.814	                       ^
+09:48:13.814	21: </svelte:head>
+09:48:13.815	22: 
+09:48:13.944	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:112:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.945	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.945	110:               <h3 class="text-lg font-medium mb-4">Connect With Us</h3>
+09:48:13.945	111:               <div class="flex space-x-4">
+09:48:13.945	112:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.945	                         ^
+09:48:13.945	113:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.945	114:                     <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+09:48:13.946	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:112:19 '#' is not a valid href attribute
+09:48:13.946	https://svelte.dev/e/a11y_invalid_attribute
+09:48:13.946	110:               <h3 class="text-lg font-medium mb-4">Connect With Us</h3>
+09:48:13.946	111:               <div class="flex space-x-4">
+09:48:13.946	112:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.946	                                ^
+09:48:13.946	113:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.946	114:                     <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+09:48:13.946	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:117:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.946	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.947	115:                   </svg>
+09:48:13.947	116:                 </a>
+09:48:13.947	117:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.947	                         ^
+09:48:13.947	118:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.947	119:                     <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+09:48:13.947	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:117:19 '#' is not a valid href attribute
+09:48:13.947	https://svelte.dev/e/a11y_invalid_attribute
+09:48:13.947	115:                   </svg>
+09:48:13.947	116:                 </a>
+09:48:13.948	117:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.948	                                ^
+09:48:13.948	118:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.948	119:                     <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+09:48:13.948	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:122:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.948	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.948	120:                   </svg>
+09:48:13.948	121:                 </a>
+09:48:13.948	122:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.949	                         ^
+09:48:13.949	123:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.949	124:                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+09:48:13.949	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:122:19 '#' is not a valid href attribute
+09:48:13.949	https://svelte.dev/e/a11y_invalid_attribute
+09:48:13.949	120:                   </svg>
+09:48:13.949	121:                 </a>
+09:48:13.949	122:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.949	                                ^
+09:48:13.950	123:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.950	124:                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+09:48:13.950	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:127:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.950	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.950	125:                   </svg>
+09:48:13.950	126:                 </a>
+09:48:13.950	127:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.951	                         ^
+09:48:13.951	128:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.951	129:                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
+09:48:13.951	8:48:13 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:127:19 '#' is not a valid href attribute
+09:48:13.951	https://svelte.dev/e/a11y_invalid_attribute
+09:48:13.951	125:                   </svg>
+09:48:13.952	126:                 </a>
+09:48:13.952	127:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:13.952	                                ^
+09:48:13.952	128:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:13.952	129:                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
+09:48:13.979	8:48:13 AM [vite-plugin-svelte] src/routes/search/+page.svelte:298:18 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.980	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.980	296:               <div class="flex justify-center mt-8" in:fade={{ duration: 300, delay: 300 }}>
+09:48:13.980	297:                 <nav class="flex items-center space-x-1">
+09:48:13.980	298:                   <button 
+09:48:13.980	                               ^
+09:48:13.980	299:                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+09:48:13.980	300:                     on:click={() => goToPage(currentPage - 1)}
+09:48:13.980	8:48:13 AM [vite-plugin-svelte] src/routes/search/+page.svelte:321:18 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:13.980	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:13.980	319:                   {/each}
+09:48:13.980	320:                   
+09:48:13.980	321:                   <button 
+09:48:13.980	                               ^
+09:48:13.980	322:                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+09:48:13.981	323:                     on:click={() => goToPage(currentPage + 1)}
+09:48:14.113	8:48:14 AM [vite-plugin-svelte] src/lib/components/SearchFilters.svelte:51:10 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:14.114	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:14.114	49:         </svg>
+09:48:14.114	50:         {#if searchQuery}
+09:48:14.114	51:           <button
+09:48:14.114	                     ^
+09:48:14.114	52:             type="button"
+09:48:14.114	53:             class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-500"
+09:48:14.534	Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+09:48:14.534	  npx update-browserslist-db@latest
+09:48:14.534	  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+09:48:15.294	✓ 179 modules transformed.
+09:48:15.507	rendering chunks...
+09:48:16.769	The following Vite config options will be overridden by SvelteKit:
+09:48:16.769	  - build.rollupOptions.output.entryFileNames
+09:48:16.769	  - build.rollupOptions.output.chunkFileNames
+09:48:16.769	  - build.rollupOptions.output.assetFileNames
+09:48:16.771	vite v6.3.5 building for production...
+09:48:16.775	transforming...
+09:48:16.934	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:112:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.935	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.935	110:               <h3 class="text-lg font-medium mb-4">Connect With Us</h3>
+09:48:16.935	111:               <div class="flex space-x-4">
+09:48:16.935	112:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.935	                         ^
+09:48:16.935	113:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.935	114:                     <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+09:48:16.935	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:112:19 '#' is not a valid href attribute
+09:48:16.936	https://svelte.dev/e/a11y_invalid_attribute
+09:48:16.936	110:               <h3 class="text-lg font-medium mb-4">Connect With Us</h3>
+09:48:16.936	111:               <div class="flex space-x-4">
+09:48:16.936	112:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.936	                                ^
+09:48:16.936	113:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.936	114:                     <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+09:48:16.936	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:117:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.936	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.937	115:                   </svg>
+09:48:16.937	116:                 </a>
+09:48:16.937	117:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.937	                         ^
+09:48:16.937	118:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.937	119:                     <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+09:48:16.937	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:117:19 '#' is not a valid href attribute
+09:48:16.937	https://svelte.dev/e/a11y_invalid_attribute
+09:48:16.937	115:                   </svg>
+09:48:16.937	116:                 </a>
+09:48:16.937	117:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.937	                                ^
+09:48:16.937	118:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.937	119:                     <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+09:48:16.937	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:122:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.937	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.937	120:                   </svg>
+09:48:16.938	121:                 </a>
+09:48:16.938	122:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.938	                         ^
+09:48:16.938	123:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.938	124:                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+09:48:16.938	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:122:19 '#' is not a valid href attribute
+09:48:16.938	https://svelte.dev/e/a11y_invalid_attribute
+09:48:16.938	120:                   </svg>
+09:48:16.938	121:                 </a>
+09:48:16.938	122:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.938	                                ^
+09:48:16.938	123:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.939	124:                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+09:48:16.939	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:127:16 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.939	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.939	125:                   </svg>
+09:48:16.939	126:                 </a>
+09:48:16.939	127:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.939	                         ^
+09:48:16.939	128:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.939	129:                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
+09:48:16.939	8:48:16 AM [vite-plugin-svelte] src/routes/contact/+page.svelte:127:19 '#' is not a valid href attribute
+09:48:16.939	https://svelte.dev/e/a11y_invalid_attribute
+09:48:16.939	125:                   </svg>
+09:48:16.940	126:                 </a>
+09:48:16.940	127:                 <a href="#" class="bg-gray-100 hover:bg-gray-200 text-gray-600 p-3 rounded-full transition-colors">
+09:48:16.940	                                ^
+09:48:16.940	128:                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+09:48:16.940	129:                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
+09:48:16.968	8:48:16 AM [vite-plugin-svelte] src/routes/search/+page.svelte:298:18 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.968	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.969	296:               <div class="flex justify-center mt-8" in:fade={{ duration: 300, delay: 300 }}>
+09:48:16.969	297:                 <nav class="flex items-center space-x-1">
+09:48:16.969	298:                   <button 
+09:48:16.969	                               ^
+09:48:16.969	299:                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+09:48:16.970	300:                     on:click={() => goToPage(currentPage - 1)}
+09:48:16.970	8:48:16 AM [vite-plugin-svelte] src/routes/search/+page.svelte:321:18 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:16.970	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:16.970	319:                   {/each}
+09:48:16.970	320:                   
+09:48:16.970	321:                   <button 
+09:48:16.970	                               ^
+09:48:16.970	322:                     class="px-3 py-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+09:48:16.970	323:                     on:click={() => goToPage(currentPage + 1)}
+09:48:16.981	8:48:16 AM [vite-plugin-svelte] src/routes/+layout.svelte:18:10 Attributes should not contain ':' characters to prevent ambiguity with Svelte directives
+09:48:16.982	https://svelte.dev/e/attribute_illegal_colon
+09:48:16.982	16: <svelte:head>
+09:48:16.982	17:   <!-- Social Bar -->
+09:48:16.982	18:   <script is:inline type='text/javascript' src='//cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js'></script>
+09:48:16.982	                       ^
+09:48:16.982	19:   <!-- Popunder Ad -->
+09:48:16.982	20:   <script is:inline type='text/javascript' src='//cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js'></script>
+09:48:16.983	8:48:16 AM [vite-plugin-svelte] src/routes/+layout.svelte:20:10 Attributes should not contain ':' characters to prevent ambiguity with Svelte directives
+09:48:16.983	https://svelte.dev/e/attribute_illegal_colon
+09:48:16.983	18:   <script is:inline type='text/javascript' src='//cadencebenefit.com/fb/c4/d8/fbc4d85f79c96db3ce212924ab64c2e5.js'></script>
+09:48:16.983	19:   <!-- Popunder Ad -->
+09:48:16.983	20:   <script is:inline type='text/javascript' src='//cadencebenefit.com/03/7c/d2/037cd25e8eb6ad9d68d720ada4c8584e.js'></script>
+09:48:16.983	                       ^
+09:48:16.983	21: </svelte:head>
+09:48:16.983	22: 
+09:48:17.137	8:48:17 AM [vite-plugin-svelte] src/lib/components/SearchFilters.svelte:51:10 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+09:48:17.137	https://svelte.dev/e/a11y_consider_explicit_label
+09:48:17.137	49:         </svg>
+09:48:17.137	50:         {#if searchQuery}
+09:48:17.137	51:           <button
+09:48:17.138	                     ^
+09:48:17.138	52:             type="button"
+09:48:17.138	53:             class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-500"
+09:48:17.678	✓ 156 modules transformed.
+09:48:17.927	rendering chunks...
+09:48:19.054	computing gzip size...
+09:48:19.061	.svelte-kit/output/client/_app/version.json                        0.03 kB │ gzip:  0.05 kB
+09:48:19.061	.svelte-kit/output/client/.vite/manifest.json                      5.86 kB │ gzip:  0.81 kB
+09:48:19.061	.svelte-kit/output/client/_app/immutable/assets/5.CHSqkyoQ.css     0.44 kB │ gzip:  0.27 kB
+09:48:19.061	.svelte-kit/output/client/_app/immutable/assets/0.CC2EU0zZ.css    25.82 kB │ gzip:  5.26 kB
+09:48:19.061	.svelte-kit/output/client/_app/immutable/entry/start.CPjr3ybd.js   0.08 kB │ gzip:  0.09 kB
+09:48:19.061	.svelte-kit/output/client/_app/immutable/chunks/DBavZ5B7.js        0.11 kB │ gzip:  0.11 kB
+09:48:19.061	.svelte-kit/output/client/_app/immutable/chunks/CA56iSe3.js        0.21 kB │ gzip:  0.15 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/chunks/DT1W5iqv.js        0.32 kB │ gzip:  0.25 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/chunks/pcK7aH7_.js        1.03 kB │ gzip:  0.51 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/chunks/DDazSb73.js        1.28 kB │ gzip:  0.72 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/nodes/1.CULZ6gF4.js       3.73 kB │ gzip:  1.48 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/entry/app.zdJXp6vJ.js     3.76 kB │ gzip:  1.52 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/nodes/6.Bn94j2Wx.js       7.74 kB │ gzip:  3.16 kB
+09:48:19.062	.svelte-kit/output/client/_app/immutable/nodes/9.DDsD3Djo.js       7.91 kB │ gzip:  3.51 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/7.HHEptSu9.js       8.71 kB │ gzip:  3.41 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/3.BNHJehXN.js       9.24 kB │ gzip:  2.92 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/chunks/FSQbsPZC.js       10.21 kB │ gzip:  3.86 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/8.D7NtaVyq.js      10.32 kB │ gzip:  3.78 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/0.DsJAzee0.js      12.21 kB │ gzip:  4.60 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/4.EmVgkw0N.js      12.76 kB │ gzip:  4.34 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/2.BHG1T2Jb.js      20.46 kB │ gzip:  6.10 kB
+09:48:19.063	.svelte-kit/output/client/_app/immutable/nodes/5.BIutFXMd.js      24.87 kB │ gzip:  7.16 kB
+09:48:19.064	.svelte-kit/output/client/_app/immutable/chunks/iHdGqnRB.js       31.73 kB │ gzip: 12.00 kB
+09:48:19.064	.svelte-kit/output/client/_app/immutable/chunks/DVsEFPIp.js       33.94 kB │ gzip: 13.59 kB
+09:48:19.064	✓ built in 2.29s
+09:48:19.565	
+09:48:19.565	node:internal/event_target:1101
+09:48:19.565	  process.nextTick(() => { throw err; });
+09:48:19.565	                           ^
+09:48:19.566	Error: The following routes were marked as prerenderable, but were not prerendered because they were not found while crawling your app:
+09:48:19.566	  - /ads/banner-728x90.html
+09:48:19.566	
+09:48:19.566	See https://svelte.dev/docs/kit/page-options#prerender-troubleshooting for info on how to solve this
+09:48:19.566	    at prerender (file:///opt/buildhome/repo/node_modules/@sveltejs/kit/src/core/postbuild/prerender.js:531:9)
+09:48:19.566	    at async MessagePort.<anonymous> (file:///opt/buildhome/repo/node_modules/@sveltejs/kit/src/utils/fork.js:23:16)
+09:48:19.567	
+09:48:19.567	Node.js v22.16.0
+09:48:19.649	Failed: Error while executing user command. Exited with error code: 1
+09:48:19.659	Failed: build command exited with code: 1
+09:48:21.338	Failed: error occurred while running build command

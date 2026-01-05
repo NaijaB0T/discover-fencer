@@ -53,6 +53,7 @@
             class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-500"
             on:click={() => { searchQuery = ""; }}
             in:fade={{ duration: 100 }}
+            aria-label="Clear search"
           >
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
