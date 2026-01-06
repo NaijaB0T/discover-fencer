@@ -1,11 +1,9 @@
 <script>
-  import { base } from '$app/paths';
   export let width = 728;
   export let height = 90;
   
-  // Ensure the path is always absolute from the root
-  const absoluteSrc = `${base || ''}/content-frame.html`.replace(/\/+/g, '/');
-  export let src = absoluteSrc;
+  // Hardcoded absolute path to ensures it always resolves from root
+  export let src = '/content-frame.html';
 </script>
 
 <div class="flex justify-center items-center my-4 w-full overflow-hidden">
