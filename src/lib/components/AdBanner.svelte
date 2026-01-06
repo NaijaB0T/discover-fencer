@@ -2,8 +2,8 @@
   export let width = 728;
   export let height = 90;
   
-  // Hardcoded absolute path to ensures it always resolves from root
-  export let src = '/content-frame.html';
+  // Point to the SvelteKit server route
+  export let src = '/ads/banner-728x90';
 </script>
 
 <div class="flex justify-center items-center my-4 w-full overflow-hidden">

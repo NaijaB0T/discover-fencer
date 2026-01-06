@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+export const prerender = true;
+
+export function GET() {
+  const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advertisement</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
     <style>
         body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; overflow: hidden; background-color: #f3f4f6; }
     </style>
@@ -21,4 +23,11 @@
     </script>
     <script data-cfasync="false" type="text/javascript" src="https://cadencebenefit.com/96461b7bb9b6ba6c093b468674eb4e75/invoke.js"></script>
 </body>
-</html>
+</html>`;
+
+  return new Response(html, {
+    headers: {
+      'Content-Type': 'text/html'
+    }
+  });
+}
